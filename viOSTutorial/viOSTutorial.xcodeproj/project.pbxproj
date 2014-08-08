@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0E303C19958F6700835E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303B19958F6700835E08 /* Foundation.framework */; };
+		CA0E303E19958F6700835E08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303D19958F6700835E08 /* CoreGraphics.framework */; };
+		CA0E304019958F6700835E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303F19958F6700835E08 /* UIKit.framework */; };
+		CA0E304219958F6700835E08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E304119958F6700835E08 /* CoreData.framework */; };
+		CA0E304819958F6700835E08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0E304619958F6700835E08 /* InfoPlist.strings */; };
+		CA0E304A19958F6700835E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E304919958F6700835E08 /* main.m */; };
+		CA0E304E19958F6700835E08 /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E304D19958F6700835E08 /* VVAppDelegate.m */; };
+		CA0E305119958F6700835E08 /* viOSTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA0E304F19958F6700835E08 /* viOSTutorial.xcdatamodeld */; };
+		CA0E305319958F6700835E08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0E305219958F6700835E08 /* Images.xcassets */; };
+		CA0E305A19958F6700835E08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E305919958F6700835E08 /* XCTest.framework */; };
+		CA0E305B19958F6700835E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303B19958F6700835E08 /* Foundation.framework */; };
+		CA0E305C19958F6700835E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303F19958F6700835E08 /* UIKit.framework */; };
+		CA0E305D19958F6700835E08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E304119958F6700835E08 /* CoreData.framework */; };
+		CA0E306519958F6700835E08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0E306319958F6700835E08 /* InfoPlist.strings */; };
+		CA0E306719958F6700835E08 /* viOSTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E306619958F6700835E08 /* viOSTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA0E305E19958F6700835E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA0E303019958F6700835E08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA0E303719958F6700835E08;
+			remoteInfo = viOSTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0E303819958F6700835E08 /* viOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0E303B19958F6700835E08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0E303D19958F6700835E08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0E303F19958F6700835E08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0E304119958F6700835E08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA0E304519958F6700835E08 /* viOSTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viOSTutorial-Info.plist"; sourceTree = "<group>"; };
+		CA0E304719958F6700835E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0E304919958F6700835E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0E304B19958F6700835E08 /* viOSTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "viOSTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		CA0E304C19958F6700835E08 /* VVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVAppDelegate.h; sourceTree = "<group>"; };
+		CA0E304D19958F6700835E08 /* VVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
+		CA0E305019958F6700835E08 /* viOSTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = viOSTutorial.xcdatamodel; sourceTree = "<group>"; };
+		CA0E305219958F6700835E08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA0E305819958F6700835E08 /* viOSTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viOSTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0E305919958F6700835E08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA0E306219958F6700835E08 /* viOSTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viOSTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		CA0E306419958F6700835E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0E306619958F6700835E08 /* viOSTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viOSTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0E303519958F6700835E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E303E19958F6700835E08 /* CoreGraphics.framework in Frameworks */,
+				CA0E304219958F6700835E08 /* CoreData.framework in Frameworks */,
+				CA0E304019958F6700835E08 /* UIKit.framework in Frameworks */,
+				CA0E303C19958F6700835E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0E305519958F6700835E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E305A19958F6700835E08 /* XCTest.framework in Frameworks */,
+				CA0E305D19958F6700835E08 /* CoreData.framework in Frameworks */,
+				CA0E305C19958F6700835E08 /* UIKit.framework in Frameworks */,
+				CA0E305B19958F6700835E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0E302F19958F6700835E08 = {
+			isa = PBXGroup;
+			children = (
+				CA0E304319958F6700835E08 /* viOSTutorial */,
+				CA0E306019958F6700835E08 /* viOSTutorialTests */,
+				CA0E303A19958F6700835E08 /* Frameworks */,
+				CA0E303919958F6700835E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0E303919958F6700835E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E303819958F6700835E08 /* viOSTutorial.app */,
+				CA0E305819958F6700835E08 /* viOSTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0E303A19958F6700835E08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E303B19958F6700835E08 /* Foundation.framework */,
+				CA0E303D19958F6700835E08 /* CoreGraphics.framework */,
+				CA0E303F19958F6700835E08 /* UIKit.framework */,
+				CA0E304119958F6700835E08 /* CoreData.framework */,
+				CA0E305919958F6700835E08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0E304319958F6700835E08 /* viOSTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E304C19958F6700835E08 /* VVAppDelegate.h */,
+				CA0E304D19958F6700835E08 /* VVAppDelegate.m */,
+				CA0E305219958F6700835E08 /* Images.xcassets */,
+				CA0E304F19958F6700835E08 /* viOSTutorial.xcdatamodeld */,
+				CA0E304419958F6700835E08 /* Supporting Files */,
+			);
+			path = viOSTutorial;
+			sourceTree = "<group>";
+		};
+		CA0E304419958F6700835E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E304519958F6700835E08 /* viOSTutorial-Info.plist */,
+				CA0E304619958F6700835E08 /* InfoPlist.strings */,
+				CA0E304919958F6700835E08 /* main.m */,
+				CA0E304B19958F6700835E08 /* viOSTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA0E306019958F6700835E08 /* viOSTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E306619958F6700835E08 /* viOSTutorialTests.m */,
+				CA0E306119958F6700835E08 /* Supporting Files */,
+			);
+			path = viOSTutorialTests;
+			sourceTree = "<group>";
+		};
+		CA0E306119958F6700835E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E306219958F6700835E08 /* viOSTutorialTests-Info.plist */,
+				CA0E306319958F6700835E08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0E303719958F6700835E08 /* viOSTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0E306A19958F6700835E08 /* Build configuration list for PBXNativeTarget "viOSTutorial" */;
+			buildPhases = (
+				CA0E303419958F6700835E08 /* Sources */,
+				CA0E303519958F6700835E08 /* Frameworks */,
+				CA0E303619958F6700835E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viOSTutorial;
+			productName = viOSTutorial;
+			productReference = CA0E303819958F6700835E08 /* viOSTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA0E305719958F6700835E08 /* viOSTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0E306D19958F6700835E08 /* Build configuration list for PBXNativeTarget "viOSTutorialTests" */;
+			buildPhases = (
+				CA0E305419958F6700835E08 /* Sources */,
+				CA0E305519958F6700835E08 /* Frameworks */,
+				CA0E305619958F6700835E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA0E305F19958F6700835E08 /* PBXTargetDependency */,
+			);
+			name = viOSTutorialTests;
+			productName = viOSTutorialTests;
+			productReference = CA0E305819958F6700835E08 /* viOSTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0E303019958F6700835E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Vivandro;
+				TargetAttributes = {
+					CA0E305719958F6700835E08 = {
+						TestTargetID = CA0E303719958F6700835E08;
+					};
+				};
+			};
+			buildConfigurationList = CA0E303319958F6700835E08 /* Build configuration list for PBXProject "viOSTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA0E302F19958F6700835E08;
+			productRefGroup = CA0E303919958F6700835E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0E303719958F6700835E08 /* viOSTutorial */,
+				CA0E305719958F6700835E08 /* viOSTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0E303619958F6700835E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E304819958F6700835E08 /* InfoPlist.strings in Resources */,
+				CA0E305319958F6700835E08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0E305619958F6700835E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E306519958F6700835E08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0E303419958F6700835E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E305119958F6700835E08 /* viOSTutorial.xcdatamodeld in Sources */,
+				CA0E304E19958F6700835E08 /* VVAppDelegate.m in Sources */,
+				CA0E304A19958F6700835E08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0E305419958F6700835E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E306719958F6700835E08 /* viOSTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA0E305F19958F6700835E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA0E303719958F6700835E08 /* viOSTutorial */;
+			targetProxy = CA0E305E19958F6700835E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA0E304619958F6700835E08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0E304719958F6700835E08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0E306319958F6700835E08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0E306419958F6700835E08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0E306819958F6700835E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA0E306919958F6700835E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0E306B19958F6700835E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viOSTutorial/viOSTutorial-Prefix.pch";
+				INFOPLIST_FILE = "viOSTutorial/viOSTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0E306C19958F6700835E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viOSTutorial/viOSTutorial-Prefix.pch";
+				INFOPLIST_FILE = "viOSTutorial/viOSTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA0E306E19958F6700835E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viOSTutorial.app/viOSTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viOSTutorial/viOSTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "viOSTutorialTests/viOSTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA0E306F19958F6700835E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viOSTutorial.app/viOSTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viOSTutorial/viOSTutorial-Prefix.pch";
+				INFOPLIST_FILE = "viOSTutorialTests/viOSTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0E303319958F6700835E08 /* Build configuration list for PBXProject "viOSTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0E306819958F6700835E08 /* Debug */,
+				CA0E306919958F6700835E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0E306A19958F6700835E08 /* Build configuration list for PBXNativeTarget "viOSTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0E306B19958F6700835E08 /* Debug */,
+				CA0E306C19958F6700835E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA0E306D19958F6700835E08 /* Build configuration list for PBXNativeTarget "viOSTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0E306E19958F6700835E08 /* Debug */,
+				CA0E306F19958F6700835E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA0E304F19958F6700835E08 /* viOSTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA0E305019958F6700835E08 /* viOSTutorial.xcdatamodel */,
+			);
+			currentVersion = CA0E305019958F6700835E08 /* viOSTutorial.xcdatamodel */;
+			path = viOSTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA0E303019958F6700835E08 /* Project object */;
+}
