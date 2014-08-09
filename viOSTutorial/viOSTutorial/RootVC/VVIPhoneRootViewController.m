@@ -7,6 +7,7 @@
 //
 
 #import "VVIPhoneRootViewController.h"
+#import "VVIPhonePlaceholderViewController.h"
 
 @interface VVIPhoneRootViewController ()
 
@@ -50,5 +51,14 @@
     NSLog(@"viv: We can check for protocol conformance(or worst case the class) of the source to extract information");
 }
 
+- (IBAction)pushProgrammaticallyButtonTapped:(UIButton *)sender {
+    VVIPhonePlaceholderViewController *placeholderVC = [[VVIPhonePlaceholderViewController alloc] initWithNibName:NSStringFromClass([VVIPhonePlaceholderViewController class])
+                                                                                                           bundle:nil];
+    [self presentViewController:placeholderVC
+                       animated:YES
+                     completion:^{
+                         NSLog(@"viv: Presented from self %@ ----[TO]----> %@", self, placeholderVC);
+                     }];
+}
 
 @end

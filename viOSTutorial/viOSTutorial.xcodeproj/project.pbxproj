@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CA0924201995F8BE0083F813 /* VVIPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09241F1995F8BE0083F813 /* VVIPhoneRootViewController.m */; };
 		CA0924231995F8E70083F813 /* VVIPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0924221995F8E70083F813 /* VVIPadRootViewController.m */; };
+		CA09242D1996C6480083F813 /* VVIPhonePlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09242B1996C6480083F813 /* VVIPhonePlaceholderViewController.m */; };
+		CA09242E1996C6480083F813 /* VVIPhonePlaceholderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA09242C1996C6480083F813 /* VVIPhonePlaceholderViewController.xib */; };
 		CA0DAB01199596A100717E59 /* RootIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB00199596A100717E59 /* RootIPhone.storyboard */; };
 		CA0DAB03199596BE00717E59 /* RootIPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB02199596BE00717E59 /* RootIPad.storyboard */; };
 		CA0E303C19958F6700835E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303B19958F6700835E08 /* Foundation.framework */; };
@@ -43,6 +45,9 @@
 		CA09241F1995F8BE0083F813 /* VVIPhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVIPhoneRootViewController.m; path = RootVC/VVIPhoneRootViewController.m; sourceTree = "<group>"; };
 		CA0924211995F8E70083F813 /* VVIPadRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVIPadRootViewController.h; path = RootVC/VVIPadRootViewController.h; sourceTree = "<group>"; };
 		CA0924221995F8E70083F813 /* VVIPadRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVIPadRootViewController.m; path = RootVC/VVIPadRootViewController.m; sourceTree = "<group>"; };
+		CA09242A1996C6480083F813 /* VVIPhonePlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVIPhonePlaceholderViewController.h; path = PlaceholderVC/VVIPhonePlaceholderViewController.h; sourceTree = "<group>"; };
+		CA09242B1996C6480083F813 /* VVIPhonePlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVIPhonePlaceholderViewController.m; path = PlaceholderVC/VVIPhonePlaceholderViewController.m; sourceTree = "<group>"; };
+		CA09242C1996C6480083F813 /* VVIPhonePlaceholderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VVIPhonePlaceholderViewController.xib; path = PlaceholderVC/VVIPhonePlaceholderViewController.xib; sourceTree = "<group>"; };
 		CA0DAB00199596A100717E59 /* RootIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPhone.storyboard; path = RootVC/RootIPhone.storyboard; sourceTree = "<group>"; };
 		CA0DAB02199596BE00717E59 /* RootIPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPad.storyboard; path = RootVC/RootIPad.storyboard; sourceTree = "<group>"; };
 		CA0E303819958F6700835E08 /* viOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA0924291996C5FF0083F813 /* PlaceholderVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA09242A1996C6480083F813 /* VVIPhonePlaceholderViewController.h */,
+				CA09242B1996C6480083F813 /* VVIPhonePlaceholderViewController.m */,
+				CA09242C1996C6480083F813 /* VVIPhonePlaceholderViewController.xib */,
+			);
+			name = PlaceholderVC;
+			sourceTree = "<group>";
+		};
 		CA0DAAFF1995964900717E59 /* RootVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +153,7 @@
 		CA0E304319958F6700835E08 /* viOSTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				CA0924291996C5FF0083F813 /* PlaceholderVC */,
 				CA0DAAFF1995964900717E59 /* RootVC */,
 				CA0E304C19958F6700835E08 /* VVAppDelegate.h */,
 				CA0E304D19958F6700835E08 /* VVAppDelegate.m */,
@@ -253,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA09242E1996C6480083F813 /* VVIPhonePlaceholderViewController.xib in Resources */,
 				CA0DAB03199596BE00717E59 /* RootIPad.storyboard in Resources */,
 				CA0E304819958F6700835E08 /* InfoPlist.strings in Resources */,
 				CA0DAB01199596A100717E59 /* RootIPhone.storyboard in Resources */,
@@ -280,6 +297,7 @@
 				CA0E304E19958F6700835E08 /* VVAppDelegate.m in Sources */,
 				CA0924231995F8E70083F813 /* VVIPadRootViewController.m in Sources */,
 				CA0E304A19958F6700835E08 /* main.m in Sources */,
+				CA09242D1996C6480083F813 /* VVIPhonePlaceholderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
