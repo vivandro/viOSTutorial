@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0924201995F8BE0083F813 /* VVIPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA09241F1995F8BE0083F813 /* VVIPhoneRootViewController.m */; };
+		CA0924231995F8E70083F813 /* VVIPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0924221995F8E70083F813 /* VVIPadRootViewController.m */; };
 		CA0DAB01199596A100717E59 /* RootIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB00199596A100717E59 /* RootIPhone.storyboard */; };
 		CA0DAB03199596BE00717E59 /* RootIPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB02199596BE00717E59 /* RootIPad.storyboard */; };
 		CA0E303C19958F6700835E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303B19958F6700835E08 /* Foundation.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA09241E1995F8BE0083F813 /* VVIPhoneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVIPhoneRootViewController.h; path = RootVC/VVIPhoneRootViewController.h; sourceTree = "<group>"; };
+		CA09241F1995F8BE0083F813 /* VVIPhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVIPhoneRootViewController.m; path = RootVC/VVIPhoneRootViewController.m; sourceTree = "<group>"; };
+		CA0924211995F8E70083F813 /* VVIPadRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVIPadRootViewController.h; path = RootVC/VVIPadRootViewController.h; sourceTree = "<group>"; };
+		CA0924221995F8E70083F813 /* VVIPadRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVIPadRootViewController.m; path = RootVC/VVIPadRootViewController.m; sourceTree = "<group>"; };
 		CA0DAB00199596A100717E59 /* RootIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPhone.storyboard; path = RootVC/RootIPhone.storyboard; sourceTree = "<group>"; };
 		CA0DAB02199596BE00717E59 /* RootIPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPad.storyboard; path = RootVC/RootIPad.storyboard; sourceTree = "<group>"; };
 		CA0E303819958F6700835E08 /* viOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +96,10 @@
 			children = (
 				CA0DAB00199596A100717E59 /* RootIPhone.storyboard */,
 				CA0DAB02199596BE00717E59 /* RootIPad.storyboard */,
+				CA09241E1995F8BE0083F813 /* VVIPhoneRootViewController.h */,
+				CA09241F1995F8BE0083F813 /* VVIPhoneRootViewController.m */,
+				CA0924211995F8E70083F813 /* VVIPadRootViewController.h */,
+				CA0924221995F8E70083F813 /* VVIPadRootViewController.m */,
 			);
 			name = RootVC;
 			sourceTree = "<group>";
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0E305119958F6700835E08 /* viOSTutorial.xcdatamodeld in Sources */,
+				CA0924201995F8BE0083F813 /* VVIPhoneRootViewController.m in Sources */,
 				CA0E304E19958F6700835E08 /* VVAppDelegate.m in Sources */,
+				CA0924231995F8E70083F813 /* VVIPadRootViewController.m in Sources */,
 				CA0E304A19958F6700835E08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
