@@ -16,10 +16,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /* Need to remove this part when using Storyboards integrated using the project settings. Those settings load the storyboard, create and set the
+       root window and root view controller.
+     The code below just gets rid of all that hard work.
+     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+     */
     return YES;
 }
 

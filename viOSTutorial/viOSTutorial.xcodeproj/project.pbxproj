@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0DAB01199596A100717E59 /* RootIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB00199596A100717E59 /* RootIPhone.storyboard */; };
+		CA0DAB03199596BE00717E59 /* RootIPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0DAB02199596BE00717E59 /* RootIPad.storyboard */; };
 		CA0E303C19958F6700835E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303B19958F6700835E08 /* Foundation.framework */; };
 		CA0E303E19958F6700835E08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303D19958F6700835E08 /* CoreGraphics.framework */; };
 		CA0E304019958F6700835E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E303F19958F6700835E08 /* UIKit.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0DAB00199596A100717E59 /* RootIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPhone.storyboard; path = RootVC/RootIPhone.storyboard; sourceTree = "<group>"; };
+		CA0DAB02199596BE00717E59 /* RootIPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RootIPad.storyboard; path = RootVC/RootIPad.storyboard; sourceTree = "<group>"; };
 		CA0E303819958F6700835E08 /* viOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0E303B19958F6700835E08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA0E303D19958F6700835E08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA0DAAFF1995964900717E59 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				CA0DAB00199596A100717E59 /* RootIPhone.storyboard */,
+				CA0DAB02199596BE00717E59 /* RootIPad.storyboard */,
+			);
+			name = RootVC;
+			sourceTree = "<group>";
+		};
 		CA0E302F19958F6700835E08 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		CA0E304319958F6700835E08 /* viOSTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				CA0DAAFF1995964900717E59 /* RootVC */,
 				CA0E304C19958F6700835E08 /* VVAppDelegate.h */,
 				CA0E304D19958F6700835E08 /* VVAppDelegate.m */,
 				CA0E305219958F6700835E08 /* Images.xcassets */,
@@ -229,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0DAB03199596BE00717E59 /* RootIPad.storyboard in Resources */,
 				CA0E304819958F6700835E08 /* InfoPlist.strings in Resources */,
+				CA0DAB01199596A100717E59 /* RootIPhone.storyboard in Resources */,
 				CA0E305319958F6700835E08 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +466,7 @@
 				CA0E306C19958F6700835E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA0E306D19958F6700835E08 /* Build configuration list for PBXNativeTarget "viOSTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +475,7 @@
 				CA0E306F19958F6700835E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
